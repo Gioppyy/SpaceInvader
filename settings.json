@@ -1,0 +1,31 @@
+{
+    "player": {
+        "speed": 6,
+        "invincible_duration": 1000,
+        "cooldown_duration": 300
+    },
+    "images": {
+        "bg": "./img/bg.png",
+        "heart": "./img/heart.png",
+        "tank1": "./img/tank1.png",
+        "tank2": "./img/tank2.png",
+        "tank_hitted": "./img/tank_hitted.png",
+        "projectile1": "./img/projectile1.png",
+        "projectile2": "./img/projectile2.png",
+        "invades": "./img/invaders.png"
+    },
+    "keybinds": {
+        "player1": {
+            "up": "w",
+            "down": "s",
+            "left": "a",
+            "right": "d"
+        },
+        "player2": {
+            "up": "up",
+            "down": "down",
+            "left": "left",
+            "right": "right"
+        }
+    }
+}
