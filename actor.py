@@ -88,6 +88,9 @@ class Arena():
     def get_status(self):
         return self._status
 
+    def give_lives(self, amount = 1):
+        self._lives += amount
+
     def decrease_lives(self):
         self._lives -= 1
 

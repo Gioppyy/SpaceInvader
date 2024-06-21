@@ -2,7 +2,14 @@
     "player": {
         "speed": 6,
         "invincible_duration": 1000,
-        "cooldown_duration": 300
+        "cooldown_duration": 300,
+        "boost_duration": 1500,
+        "boosts": [
+            "speed_x2", "shot_speed_x2",
+            "life_+1", "point_x2",
+            "score_+100", "score_+500",
+            "score_+1000"
+        ]
     },
     "images": {
         "bg": "./img/bg.png",
